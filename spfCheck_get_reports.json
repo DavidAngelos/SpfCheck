@@ -1,0 +1,15 @@
+{
+    "name": "SPF_Check",
+    "version": "1.0",
+    "url": "https://thehive-project.org",
+    "author": "DavidAngelos",
+    "license": "AGPL-v3",
+    "description": "SpfCheck does email sender validation. For more information about SPF, please see http://www.openspf.net/",
+    "dataTypeList": ["other"],
+    "command": "SpfCheck/spfCheck.py",
+    "baseConfig": "SpfCheck",
+    "config": {
+        "service": "get"
+    },
+    "configurationItems": []
+}
